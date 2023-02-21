@@ -19,6 +19,9 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
   </head>
   <body>
     <header class="header">
@@ -55,6 +58,115 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="mob-menu-btn js-open-menu">
+          <svg class="mob-menu-icon" width="32" height="22">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mob-menu js-menu-container">
+        <div class="mob-container container">
+          <div class="mob-wrap">
+            <button type="button" class="modal-close js-close-menu">
+              <svg class="icon-close-modal" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-modal"></use>
+              </svg>
+            </button>
+            <nav class="mob-navigation">
+              <ul class="mob-navigation-list">
+                <li class="mob-navigation-item">
+                  <a
+                    class="mob-navigation-link current-mob-link link"
+                    href="./index.html"
+                    >Studio</a
+                  >
+                </li>
+                <li class="mob-navigation-item">
+                  <a class="mob-navigation-link link" href="./portfolio.html"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="mob-navigation-item">
+                  <a class="mob-navigation-link link" href="">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="mob-wrap">
+            <address class="mob-contacts">
+              <ul class="mob-contacts-list">
+                <li class="mob-contacts-item">
+                  <a
+                    class="mob-contacts-phone link"
+                    href="tel:+11(000)111-11-11"
+                    >+11 (000) 111-11-11
+                  </a>
+                </li>
+                <li class="mob-contacts-item">
+                  <a
+                    class="mob-contacts-mail link"
+                    href="mailto:info@devstudio.com"
+                    >info@devstudio.com
+                  </a>
+                </li>
+              </ul>
+            </address>
+            <ul class="social-list">
+              <li class="social-item">
+                <a
+                  class="social-link"
+                  href="#"
+                  target="_blank"
+                  rel="noreferrer noopener nofollow"
+                  aria-label="instagram"
+                >
+                  <svg class="social-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a
+                  class="social-link"
+                  href="#"
+                  target="_blank"
+                  rel="noreferrer noopener nofollow"
+                  aria-label="twitter"
+                >
+                  <svg class="social-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a
+                  class="social-link"
+                  href="#"
+                  target="_blank"
+                  rel="noreferrer noopener nofollow"
+                  aria-label="facebook"
+                >
+                  <svg class="social-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a
+                  class="social-link"
+                  href="#"
+                  target="_blank"
+                  rel="noreferrer noopener nofollow"
+                  aria-label="linkedin"
+                >
+                  <svg class="social-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
     <main>
@@ -134,6 +246,7 @@
           <ul class="work-list">
             <li class="work-item">
               <img
+                srcset="./images/work-1@2x.jpeg"
                 src="./images/img-1.jpeg"
                 alt="PC with open website"
                 width="360"
@@ -142,6 +255,7 @@
             </li>
             <li class="work-item">
               <img
+                srcset="./images/work-2@2x.jpeg"
                 src="./images/img-2.jpeg"
                 alt="mobile phone with 4 chat screens in the messenger"
                 width="360"
@@ -150,6 +264,7 @@
             </li>
             <li class="work-item">
               <img
+                srcset="./images/work-3@2x.jpeg"
                 src="./images/img-3.jpeg"
                 alt="laptop with 3 designs of mobile website and hand with mobile phone on which one of site designs is open"
                 width="360"
@@ -168,6 +283,7 @@
           <ul class="team-list">
             <li class="team-item">
               <img
+                srcset="./images/img-team-1@2x.jpeg 2x"
                 src="./images/img-team-1.jpeg"
                 alt="male portrait team member"
                 width="264"
@@ -234,6 +350,7 @@
             </li>
             <li class="team-item">
               <img
+                srcset="./images/img-team-2@2x.jpeg 2x"
                 src="./images/img-team-2.jpeg"
                 alt="male portrait team member"
                 width="264"
@@ -300,6 +417,7 @@
             </li>
             <li class="team-item">
               <img
+                srcset="./images/img-team-3@2x.jpeg 2x"
                 src="./images/img-team-3.jpeg"
                 alt="female portrait team member"
                 width="264"
@@ -366,6 +484,7 @@
             </li>
             <li class="team-item">
               <img
+                srcset="./images/img-team-4@2x.jpeg 2x"
                 src="./images/img-team-4.jpeg"
                 alt="male portrait team member"
                 width="264"
@@ -489,7 +608,7 @@
     </main>
 
     <!-- FOOTER -->
-    <footer class="footer">
+    <footer class="footer section">
       <div class="footer-wrap container">
         <div class="footer-logo-wrap">
           <a class="footer-logo logo" href="./index.html"
@@ -673,7 +792,7 @@
       </div>
     </div>
     <!-- / MODAL WINDOW -->
-
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
