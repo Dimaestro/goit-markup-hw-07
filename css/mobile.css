@@ -1,0 +1,23 @@
+/* ========= MOBILE========= */
+
+@media screen and (min-width: 480px) {
+  .hero-title {
+    max-width: 318px;
+  }
+  .container {
+    max-width: 428px;
+    margin: 0 auto;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .mob-menu .social-list {
+    gap: 56px;
+    justify-content: flex-start;
+  }
+
+  .modal {
+    max-width: 392px;
+    min-height: 586px;
+  }
+}
