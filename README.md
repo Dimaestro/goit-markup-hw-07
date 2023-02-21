@@ -1,5 +1,5 @@
-# Homework HTML / CSS module 6
+# Homework HTML / CSS module 7
 
 ---
 
-## Preview - [link GitHub pages](https://dimaestro.github.io/goit-markup-hw-06/ 'GitHub pages')
+## Preview - [link GitHub pages](https://dimaestro.github.io/goit-markup-hw-07/ 'GitHub pages')
