@@ -16,6 +16,12 @@
     justify-content: flex-start;
   }
 
+  .mob-contacts-phone {
+    font-size: 36px;
+    line-height: calc(40 / 36);
+    color: var(--primary-brand-color);
+  }
+
   .modal {
     max-width: 392px;
     min-height: 586px;

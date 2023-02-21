@@ -134,6 +134,9 @@
   /* ========= TEAM ========= */
 
   /* ========= CUSTOMERS ========= */
+  .customers-item {
+    width: 168px;
+  }
 
   /* FOOTER */
   .footer-wrap {
